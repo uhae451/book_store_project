@@ -13,4 +13,6 @@ public class HiController {
     return "hihi";
   }
 
+  // 아무내용
+
 }
