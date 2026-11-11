@@ -14,7 +14,7 @@ env:
   ECS_CLUSTER: bookstore-cluster
   ECS_SERVICE: bookstore-service1
   TASK_FAMILY: bookstore-task2
-#
+###
 jobs:
   deploy:
     runs-on: ubuntu-latest
