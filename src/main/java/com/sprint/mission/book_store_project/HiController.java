@@ -10,7 +10,7 @@ public class HiController {
 
   @GetMapping
   public String hi(){
-    return "hihi";
+    return "hihiㅁㄴㅇㅎㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ";
   }
 
   // 아무내용
