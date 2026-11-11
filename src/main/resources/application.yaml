@@ -2,9 +2,9 @@ spring:
   application:
     name: book_store_project
   datasource:
-    url: jdbc:postgresql://localhost:5432/db_project
-    username: chichi
-    password: vmfwlma1!
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://bookstore-db.chq8s00u0lvm.ap-northeast-2.rds.amazonaws.com:5432/db_project}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:tpdms159}
   jpa:
     hibernate:
       ddl-auto: ${SPRING_JPA_HIBERNATE_DDL_AUTO:update}
